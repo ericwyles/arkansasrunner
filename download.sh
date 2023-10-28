@@ -1,4 +1,8 @@
-export YEAR"1999"
+#!/bin/bash
+
+DELAY=5 #archive.org has a 15 requests per minute limit
+
+YEAR="1999"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20200203032021/http://arkansasrunner.com/archives/results1999/spa10k99.htm
@@ -67,7 +71,7 @@ wget -P $YEAR https://web.archive.org/web/20200203032021/http://arkansasrunner.c
 wget -P $YEAR https://web.archive.org/web/20200203032021/http://arkansasrunner.com/archives/results1999/gulley99.htm
  
 
-export YEAR"1998"
+YEAR="1998"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20200203032610/http://arkansasrunner.com/archives/results1998/onehr98.htm
@@ -101,7 +105,7 @@ wget -P $YEAR https://web.archive.org/web/20200203032610/http://arkansasrunner.c
 wget -P $YEAR https://web.archive.org/web/20200203032610/http://arkansasrunner.com/archives/results1998/chenal5k98.htm
 
 
-export YEAR="2000"
+YEAR="2000"
 mkdir $YEAR
 
 wget -P $YEAR https://web.archive.org/web/20160514200251/http://www.arkansasrunner.com/archives/results2000/4dice00.htm
@@ -211,7 +215,7 @@ wget -P $YEAR https://web.archive.org/web/20160514200251/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514200251/http://www.arkansasrunner.com/archives/results2000/yell5k00.htm
 
 
-export YEAR="2001"
+YEAR="2001"
 mkdir $YEAR
 
 wget -P $YEAR https://web.archive.org/web/20160514170030/http://www.arkansasrunner.com/archives/results2001/ac5k01.htm
@@ -368,7 +372,7 @@ wget -P $YEAR https://web.archive.org/web/20160514170030/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514170030/http://www.arkansasrunner.com/archives/results2001/val5k01t.htm
 wget -P $YEAR https://web.archive.org/web/20160514170030/http://www.arkansasrunner.com/archives/results2001/yule5k01.htm
  
-export YEAR"2002"
+YEAR="2002"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514195945/http://www.arkansasrunner.com/archives/results2002/abfmar02.htm
@@ -548,7 +552,7 @@ wget -P $YEAR https://web.archive.org/web/20160514195945/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514195945/http://www.arkansasrunner.com/archives/results2002/wm5k02gr.htm
 wget -P $YEAR https://web.archive.org/web/20160514195945/http://www.arkansasrunner.com/archives/results2002/wrm02.htm
  
-export YEAR"2003"
+YEAR="2003"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514194743/http://www.arkansasrunner.com/archives/results2003/4statesTRI03.htm
@@ -743,7 +747,7 @@ wget -P $YEAR https://web.archive.org/web/20160514194743/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514194743/http://www.arkansasrunner.com/archives/results2003/wm5k03gr.htm
 wget -P $YEAR https://web.archive.org/web/20160514194743/http://www.arkansasrunner.com/archives/results2003/wr03.htm
  
-export YEAR"2004"
+YEAR="2004"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514195657/http://www.arkansasrunner.com/archives/results2004/10405k04.htm
@@ -918,7 +922,7 @@ wget -P $YEAR https://web.archive.org/web/20160514195657/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514195657/http://www.arkansasrunner.com/archives/results2004/ws01_31.htm
 wget -P $YEAR https://web.archive.org/web/20160514195657/http://www.arkansasrunner.com/archives/results2004/zeroxc04.htm
  
-export YEAR"2005"
+YEAR="2005"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514184054/http://www.arkansasrunner.com/archives/results2005/2aboys05.htm
@@ -1127,7 +1131,7 @@ wget -P $YEAR https://web.archive.org/web/20160514184054/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514184054/http://www.arkansasrunner.com/archives/results2005/ws_05_01_29.htm
 wget -P $YEAR https://web.archive.org/web/20160514184054/http://www.arkansasrunner.com/archives/results2005/ws_05_02_05.htm
  
-export YEAR"2006"
+YEAR="2006"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514194202/http://www.arkansasrunner.com/archives/results2006/10405k06.htm
@@ -1354,7 +1358,7 @@ wget -P $YEAR https://web.archive.org/web/20160514194202/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514194202/http://www.arkansasrunner.com/archives/results2006/wsr5k06.htm
 wget -P $YEAR https://web.archive.org/web/20160514194202/http://www.arkansasrunner.com/archives/results2006/yule5k06.htm
  
-export YEAR"2007"
+YEAR="2007"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514185404/http://www.arkansasrunner.com/archives/results2007/4h5k07.htm
@@ -1613,7 +1617,7 @@ wget -P $YEAR https://web.archive.org/web/20160514185404/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514185404/http://www.arkansasrunner.com/archives/results2007/yf5k07.htm
 wget -P $YEAR https://web.archive.org/web/20160514185404/http://www.arkansasrunner.com/archives/results2007/yule5k07.htm
  
-export YEAR"2008"
+YEAR="2008"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514195709/http://www.arkansasrunner.com/archives/results2008/10405k08.htm
@@ -1831,7 +1835,7 @@ wget -P $YEAR https://web.archive.org/web/20160514195709/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514195709/http://www.arkansasrunner.com/archives/results2008/ymca5k08.htm
 wget -P $YEAR https://web.archive.org/web/20160514195709/http://www.arkansasrunner.com/archives/results2008/yule5k08.htm
  
-export YEAR"2009"
+YEAR="2009"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514171228/http://www.arkansasrunner.com/archives/results2009/1040_5k09.htm
@@ -2046,7 +2050,7 @@ wget -P $YEAR https://web.archive.org/web/20160514171228/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514171228/http://www.arkansasrunner.com/archives/results2009/ww5k09.htm
 wget -P $YEAR https://web.archive.org/web/20160514171228/http://www.arkansasrunner.com/archives/results2009/yule5k09.htm
  
-export YEAR"2010"
+YEAR="2010"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514160738/http://www.arkansasrunner.com/archives/results2010/0t50m50k10.htm
@@ -2290,7 +2294,7 @@ wget -P $YEAR https://web.archive.org/web/20160514160738/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514160738/http://www.arkansasrunner.com/archives/results2010/yell5k10.htm
 wget -P $YEAR https://web.archive.org/web/20160514160738/http://www.arkansasrunner.com/archives/results2010/yule5k10.htm
  
-export YEAR"2011"
+YEAR="2011"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514180024/http://www.arkansasrunner.com/archives/results2011/10405k11.htm
@@ -2589,7 +2593,7 @@ wget -P $YEAR https://web.archive.org/web/20160514180024/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514180024/http://www.arkansasrunner.com/archives/results2011/yule5k11.htm
 wget -P $YEAR https://web.archive.org/web/20160514180024/http://www.arkansasrunner.com/archives/results2011/zioh5k11.htm
  
-export YEAR"2012"
+YEAR="2012"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514174720/http://www.arkansasrunner.com/archives/results2012/1less5k12.htm
@@ -2820,7 +2824,7 @@ wget -P $YEAR https://web.archive.org/web/20160514174720/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514174720/http://www.arkansasrunner.com/archives/results2012/wr4m12.htm
 wget -P $YEAR https://web.archive.org/web/20160514174720/http://www.arkansasrunner.com/archives/results2012/zone5k12.htm
  
-export YEAR"2013"
+YEAR="2013"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514195914/http://www.arkansasrunner.com/archives/results2013/1040tr5k13.htm
@@ -3054,7 +3058,7 @@ wget -P $YEAR https://web.archive.org/web/20160514195914/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514195914/http://www.arkansasrunner.com/archives/results2013/yule5k13.htm
 wget -P $YEAR https://web.archive.org/web/20160514195914/http://www.arkansasrunner.com/archives/results2013/zone5k13.htm
  
-export YEAR"2014"
+YEAR="2014"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514195449/http://www.arkansasrunner.com/archives/results2014/4hr5k14.htm
@@ -3227,7 +3231,7 @@ wget -P $YEAR https://web.archive.org/web/20160514195449/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514195449/http://www.arkansasrunner.com/archives/results2014/xmashalf14.htm
 wget -P $YEAR https://web.archive.org/web/20160514195449/http://www.arkansasrunner.com/archives/results2014/yule5k14.htm
  
-export YEAR"2015"
+YEAR="2015"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20160514174433/http://www.arkansasrunner.com/archives/results2015/1040tax5k15.htm
@@ -3326,7 +3330,7 @@ wget -P $YEAR https://web.archive.org/web/20160514174433/http://www.arkansasrunn
 wget -P $YEAR https://web.archive.org/web/20160514174433/http://www.arkansasrunner.com/archives/results2015/wnfas5k15.htm
 wget -P $YEAR https://web.archive.org/web/20160514174433/http://www.arkansasrunner.com/archives/results2015/wnfas5k15ag.htm
  
-export YEAR"2016"
+YEAR="2016"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20200203042715/http://arkansasrunner.com/archives/results2016/mtn4m16.htm
@@ -3443,7 +3447,7 @@ wget -P $YEAR https://web.archive.org/web/20200203042715/http://arkansasrunner.c
 wget -P $YEAR https://web.archive.org/web/20200203042715/http://arkansasrunner.com/archives/results2016/cch10k16.htm
  
  
-export YEAR"2017"
+YEAR="2017"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20200203073354/http://arkansasrunner.com/archives/results2017/mn4m17.htm
@@ -3572,7 +3576,7 @@ wget -P $YEAR https://web.archive.org/web/20200203073354/http://arkansasrunner.c
 wget -P $YEAR https://web.archive.org/web/20200203073354/http://arkansasrunner.com/archives/results2017/rt15k17.htm
 wget -P $YEAR https://web.archive.org/web/20200203073354/http://arkansasrunner.com/archives/results2017/cc10k17.htm
  
-export YEAR"2018"
+YEAR="2018"
 mkdir $YEAR
  
 wget -P $YEAR https://web.archive.org/web/20200203042248/http://arkansasrunner.com/archives/results2018/nebo4m18.htm
